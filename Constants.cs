@@ -65,6 +65,17 @@ namespace Ryguy9999.ATS.ATSForAP {
             ["Sea Marrow"] = GoodsTypes.Crafting_Sea_Marrow,
             ["Tools"] = GoodsTypes.Tools_Simple_Tools,
         };
+        public static Dictionary<string, List<string>> PROGRESSIVE_GOODS = new Dictionary<string, List<string>> {
+            ["Progressive Complex Food"] = new List<string> {
+              "Porridge",
+              "Jerky",
+              "Pie",
+              "Skewers",
+              "Paste",
+              "Pickled Goods",
+              "Biscuits",
+            },
+        };
         public const int PRODUCTIVITY_MODIFIER = 999999;
         public const int TRADE_TOWN_ID = 9999;
         public const string SCOUT_STRING_PREFIX = "[AP Scout]";
